@@ -9,8 +9,8 @@ Kata runtime class.
 > Only run this step if you are modifying the current webhook or don't
 > want to use the webhook available in docker hub.
 
-First build the admission controller image and the associated
-Kubernetes YAML files required to instantiate the admission
+First build the admission controller image and update
+[webhook.yaml](./deploy/webhook.yaml) required to instantiate the admission
 controller.
 
 ```bash
